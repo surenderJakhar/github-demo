@@ -5,7 +5,9 @@ int add(int a, int b){
 }
 
 int main(){
-	int a, b;
+	printf("Hello World!\n");
+	int a=2, b=3;
+	printf("%d + %d = %d\n", a, b, a+b);
 	printf("Enter a and b :\n");
 	scanf("%d%d", &a, &b);
 
@@ -13,5 +15,6 @@ int main(){
 
 	printf("Sum of %d and %d is : %d\n",a, b, sum);
 
+	
 	return 0;
 }
